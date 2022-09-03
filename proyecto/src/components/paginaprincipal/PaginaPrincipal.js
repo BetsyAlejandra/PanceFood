@@ -5,6 +5,9 @@ export const PaginaPrincipal = () => {
         <>
             <div id='centrar'>
                 <img id='img01' className='center-block'></img>
+                <div id='fondoCards'>
+                    
+                </div>
             </div>
             <div id='centro'>
                 <div id='cir01'></div>
@@ -19,6 +22,7 @@ export const PaginaPrincipal = () => {
             <h1 id='centrar'>
                 Promociones del Día
             </h1>
+            
         </>
     )
 }
