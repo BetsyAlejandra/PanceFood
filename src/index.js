@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { OpcionesRegistro } from './pages/OpcionesRegistro';
 import reportWebVitals from './reportWebVitals';
-import { PaginaPrincipal } from './components/paginaprincipal/PaginaPrincipal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PaginaPrincipal />
+    <OpcionesRegistro />
   </React.StrictMode>
 );
 
