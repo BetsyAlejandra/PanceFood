@@ -4,6 +4,7 @@ import './index.css';
 import { OpcionesRegistro } from './pages/OpcionesRegistro';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
