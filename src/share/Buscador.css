@@ -12,8 +12,27 @@ body {
 #buscador {
     margin-top: 10px;
     width: 700px;
-    height: 48px;
-
+    height: 8vh;
+    max-height: 8vh;
     background: #D9D9D9;
     border-radius: 44.5px;
+}
+
+#img{
+    height: 50%;
+    margin-left: 2vh;
+}
+
+#buscar{
+    width: 650px;
+    height: 8vh;
+    background: #D9D9D9;
+    border-radius: 44.5px;
+    border: 0;
+    margin-left: 12px;
+}
+
+input{
+    margin-left: 10px;
+    outline: 0;
 }
