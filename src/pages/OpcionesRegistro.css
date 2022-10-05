@@ -26,7 +26,20 @@ body {
     background-color: rgba(217, 217, 217, 0.6);
     border-radius: 78px;
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    ". . ."
+    ". form ."
+    ". . ."
+    ". form ."
+    ". . .";
     
+}
+
+.inputs {
+    grid-area: form;
 }
 
 #boton {

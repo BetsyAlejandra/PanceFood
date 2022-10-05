@@ -21,6 +21,7 @@ body {
 #img{
     height: 50%;
     margin-left: 2vh;
+    margin-bottom: 3px;
 }
 
 #buscar{
@@ -35,4 +36,6 @@ body {
 input{
     margin-left: 10px;
     outline: 0;
+    font-family: Letters;
+    font-size: 25px;
 }
