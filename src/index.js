@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { PaginaPrincipal } from './pages/PaginaPrincipal';
+import { Home } from './pages/Home';
 
 
 
@@ -11,7 +11,7 @@ import { PaginaPrincipal } from './pages/PaginaPrincipal';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PaginaPrincipal />
+    <Home />
   </React.StrictMode>
 );
 

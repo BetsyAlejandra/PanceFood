@@ -3,10 +3,10 @@
     max-height: 100vh;
     position: absolute;
     width: 22%;
-    height: 100vh;
+    height: 100%;
     left: -151px;
     top: 20px;
-
+    margin: 0;
     background: #D96C06;
     box-shadow: 8px -6px 16px 5px rgba(0, 0, 0, 0.25);
     border-radius: 104px;
@@ -49,7 +49,7 @@
     font-size: 20px;
 }
 
-#informacion2{
+#informacion2 {
     font-family: Joynoted;
     position: absolute;
     height: 12%;
@@ -64,7 +64,7 @@
     font-size: 20px;
 }
 
-#informacion3{
+#informacion3 {
     font-family: Joynoted;
     position: absolute;
     height: 12%;
@@ -79,7 +79,7 @@
     font-size: 20px;
 }
 
-#informacion4{
+#informacion4 {
     font-family: Joynoted;
     position: absolute;
     height: 12%;
@@ -94,8 +94,8 @@
     font-size: 20px;
 }
 
-#tamañoIconos{
-    width:25%;
+#tamañoIconos {
+    width: 25%;
     margin-left: 15%;
 }
 
@@ -114,9 +114,21 @@
     font-weight: 500;
 }
 
-#iconoCer{
+#iconoCer {
     margin-top: 4%;
     width: 20%;
     margin-left: 35%;
     position: absolute;
+}
+
+#barraAtras {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    left: 60%;
+    top: 25%;
+
+    background: white;
+    opacity: 0.45;
+    border-radius: 96.5px;
 }
