@@ -9,6 +9,8 @@ import { Restaurantes } from "./Restaurantes";
 import { Compra } from "./Compra";
 import { Perfil } from "./Perfil";
 import { Canasta } from "./Canasta";
+import { Siguetu } from "./Siguetu"
+import { Chat } from "./Chat";
 
 
 export const MainApp = () => {
@@ -25,8 +27,11 @@ export const MainApp = () => {
         <Link to="compra"> Compra </Link> 
         <Link to="perfil"> Perfil </Link>
         <Link to="carrito"> Carrito </Link>
+        <Link to="siguetu"> Sigue tu Pedido</Link>
+        <Link to="chat"> Chat </Link>
 
-        
+
+
         <Routes>
             <Route path="/" element={ <Home /> }> </Route>
             <Route path="registrocorreo" element={ <OpcionesRegistro /> }></Route>
@@ -37,6 +42,8 @@ export const MainApp = () => {
             <Route path="compra" element={ <Compra />}></Route>
             <Route path="perfil" element={ <Perfil />}></Route>
             <Route path="carrito" element={ <Canasta />}></Route>
+            <Route path="siguetupedido" element={ <Siguetu />}></Route>
+            <Route path="chat" element={ <Chat /> }></Route>
         </Routes>
         </>
     )
