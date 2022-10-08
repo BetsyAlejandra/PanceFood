@@ -1,5 +1,6 @@
 import './Registro.css'
 import { NavBarD } from "../share/NavBarD"
+import { Link } from 'react-router-dom'
 
 export const Registro = () => {
 
@@ -9,7 +10,7 @@ export const Registro = () => {
             <div id='container'>
                 <div id='cardCentral'>
                     <div id='centrado'>
-                        <button class="btn btn-primary"> Registrarse </button>
+                        <Link to="registrocorreo"><button class="btn btn-primary"> Registrarse </button></Link> <br />
                         <button class="btn btn-primary"> Registrarse con Google </button>
                     </div>
                 </div>

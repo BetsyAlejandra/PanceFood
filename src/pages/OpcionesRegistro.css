@@ -20,7 +20,7 @@ body {
 
 
 #cardCentral {
-    margin-top: 20px;
+    margin-top: 60px;
     width: 430px;
     height: 600px;
     background-color: rgba(217, 217, 217, 0.6);
@@ -31,9 +31,9 @@ body {
     grid-template-rows: auto;
     grid-template-areas: 
     ". . ."
-    ". form ."
+    ". . form . ."
     ". . ."
-    ". form ."
+    ". . form . ."
     ". . .";
     
 }
@@ -53,6 +53,7 @@ body {
     font-weight: 700;
     color: black;
     text-transform: uppercase;
+    
 }
 
 #inputf {

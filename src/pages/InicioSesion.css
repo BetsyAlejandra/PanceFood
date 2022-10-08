@@ -19,7 +19,7 @@ body{
 
 
 
-#cardCentral {
+.cardCentral {
     margin-top: 60px;
     width: 430px;
     height: 600px;

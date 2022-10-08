@@ -132,3 +132,18 @@
     opacity: 0.45;
     border-radius: 96.5px;
 }
+
+#cerrar:hover {
+    background-color: darkslategray;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    #cerrar {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
