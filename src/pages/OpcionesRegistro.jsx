@@ -1,4 +1,5 @@
 import { NavBarD } from '../share/NavBarD'
+import { Link } from 'react-router-dom'
 import './OpcionesRegistro.css'
 
 export const OpcionesRegistro = () => {
@@ -28,7 +29,7 @@ export const OpcionesRegistro = () => {
                             <label id='labeltyc'>
                                 <input type="checkbox" id="teyco" value="teyco"></input>
                                 Acepto los Terminos y Condiciones</label>
-                            <button class="btn btn-primary" id='boton' type="submit"> Registrarse </button>
+                            <Link to='/home'> <button class="btn btn-primary" id='boton' type="submit"> Registrarse </button> </Link>
                         </div>
                     </form>
                 </div>

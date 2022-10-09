@@ -13,12 +13,12 @@ export const BarraV = () => {
     return(
         <body>
             <div className='barral'>
-                <Link to=""><img className='atras' src={devolver} alt="atras" /></Link>
-                <Link to="perfil"><img className='perfil' src={perfil} alt="perfil" /></Link>
-                <Link to="chat"><img className='soporte' src={soporten} alt="soporte" /></Link>
+                <Link to="/"><img className='atras' src={devolver} alt="atras" /></Link>
+                <Link to="/perfil"><img className='perfil' src={perfil} alt="perfil" /></Link>
+                <Link to="/chat"><img className='soporte' src={soporten} alt="soporte" /></Link>
                 <Link to=""><img className='cupones' src={cupones} alt="cupones" /></Link>
-                <Link to="home"><img className='inicio' src={home} alt="Inicio" /></Link>
-                <Link to="carrito"><img className='canasta' src={canasta} alt="Carrito" /></Link>
+                <Link to="/home"><img className='inicio' src={home} alt="Inicio" /></Link>
+                <Link to="/carrito"><img className='canasta' src={canasta} alt="Carrito" /></Link>
                 <Link to="/"><img className='logout' src={logout} alt="Salir" /></Link>
             </div>
         </body>

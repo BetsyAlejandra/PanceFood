@@ -20,7 +20,7 @@ export const Perfil = () => {
                 <h2 className='h'> Sancocho de Gallina </h2>
                 <h5 className='h5'> Restaurante: La Sazon de la Abuela </h5>
                 <img className='information' src={i} alt="informacion" />
-                <button className='btn'> Volver a Pedir</button>
+                <button className='btn1'> Volver a Pedir</button>
             </div>
             <h4 className='h4'> Top Restaurantes <br /> Preferidos </h4>
             <img className='one' src={una} alt="uno" />

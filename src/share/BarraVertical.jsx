@@ -12,18 +12,19 @@ export const BarraVertical = () => {
 
     return (
         <div class="container-fluid">
-            <div id='estiloBarra'>
-                <button id='perfil'> <img id='tamañoIc' src={iconoPerfil} alt='Perfil'></img>
+            <div className='estiloBarra'>
+                <Link to="/perfil"><button id='perfil'> <img id='tamañoIc' src={iconoPerfil} alt='Perfil'></img>
                     Nombre  <br /> Mi perfil
-                </button> <br />
-                <button id='informacion1'> <img id='tamañoIconos' src={soporte} alt='Soporte' ></img>
-                    Soporte </button>
-                <button id='informacion2'> <img id='tamañoIconos' src={pedidos} alt='pedidos' ></img>
-                    Pedidos </button>
-                <button id='informacion3' > <img id='tamañoIconos' src={direcciones} alt='Direcciones'></img>
-                    Direccion </button>
-                <button id='informacion4'> <img id='tamañoIconos' src={tienda} alt='tienda'></img>
-                    Tienda </button>
+                </button> <br /></Link>
+                <Link to=""><button id='informacion1'> <img id='tamañoIconos' src={soporte} alt='Soporte' ></img>
+                    Soporte </button></Link>
+                <Link to=""><button id='informacion2'> <img id='tamañoIconos' src={pedidos} alt='pedidos' ></img>
+                    Pedidos </button></Link>
+                <Link to=""><button id='informacion3' > <img id='tamañoIconos' src={direcciones} alt='Direcciones'></img>
+                    Direccion </button></Link>
+                <Link to="/restaurantes"><button id='informacion4'> <img id='tamañoIconos' src={tienda} alt='tienda'></img>
+                    Tienda </button></Link>
+
                 <Link to="/"> <button id='cerrar'> <img id='iconoCer' src={logout} alt='cerrar' ></img>
                     Cerrar <br /> Sesion</button></Link>
 
